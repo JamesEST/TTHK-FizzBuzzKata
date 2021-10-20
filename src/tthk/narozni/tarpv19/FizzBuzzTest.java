@@ -8,4 +8,8 @@ public class FizzBuzzTest {
     public void shouldReturn0() {
         assertEquals(FizzBuzz.of(0), ("0"));
     }
+    @Test
+    public void shouldReturn1(){
+        assertEquals(FizzBuzz.of(1), ("1"));
+    }
 }
