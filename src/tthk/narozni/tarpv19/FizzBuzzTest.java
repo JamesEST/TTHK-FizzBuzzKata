@@ -12,4 +12,9 @@ public class FizzBuzzTest {
     public void shouldReturn1(){
         assertEquals(FizzBuzz.of(1), ("1"));
     }
+    @Test
+    public void multipleOfThreeReturnFizz(){
+        assertEquals(FizzBuzz.of(3), ("Fizz"));
+    }
+
 }
